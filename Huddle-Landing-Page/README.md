@@ -1,4 +1,4 @@
-# Huddle landing page with single introductory section (<a href="https://jolly-sable-01b349.netlify.app/" target="_blank"><ins>Live Site</ins></a>)
+# Huddle landing page (<a href="https://jolly-sable-01b349.netlify.app/" target="_blank"><ins>Live Site</ins></a>)
 
 
 ![Design preview for the Huddle landing page with single introductory section](./design/desktop-preview.jpg)
