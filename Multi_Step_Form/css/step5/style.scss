@@ -1,0 +1,262 @@
+// ## Fonts ---
+@font-face {
+    font-family: "Ubuntu";
+    src: url('../assets/fonts/Ubuntu-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Ubuntu";
+    src: url('../assets/fonts/Ubuntu-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Ubuntu";
+    src: url('../assets/fonts/Ubuntu-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+// ## Variables --- 
+:root {
+
+    // -- Colors --
+    // # [Primary] 
+    --marine-blue: hsl(213, 96%, 18%);
+    --violet: hsl(274, 42%, 51%);
+    --purple-blue: hsl(243, 100%, 62%);
+    --pastel-blue: hsl(228, 100%, 84%);
+    --light-blue: hsl(206, 94%, 87%);
+    --strawberry-red: hsl(354, 84%, 57%);
+
+    // # [Neutral]
+    --gray: hsl(0, 0%, 21%);
+    --cool-gray: hsl(231, 11%, 63%);
+    --light-gray: hsl(229, 24%, 87%);
+    --mangolia: hsl(217, 100%, 97%);
+    --alabaster: hsl(231, 100%, 99%);
+    --white: hsl(0, 0%, 100%);
+    --black: hsl(0, 0%, 0%);
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Ubuntu", sans-serif;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.container {
+    // padding: 20px;
+    height: 100vh;
+
+    .sidebar-start {
+        background: url('../../assets/images/bg-sidebar-mobile.svg');
+        background-size: cover;
+        background-position: center;
+
+        .steps {
+            display: flex;
+            justify-content: center;
+            height: 210px;
+            padding-top: 40px;
+
+            .step {
+                &>span {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 40px;
+                    height: 40px;
+                    font-weight: 500;
+                    padding: 10px;
+                    color: var(--white);
+                    background: transparent;
+                    border: 2px solid var(--white);
+                    border-radius: 50%;
+                }
+
+                span:not(:last-child) {
+                    margin-right: 20px;
+                }
+
+                .step-info {
+                    display: none;
+                }
+            }
+
+            .step:last-child {
+
+                &>span {
+                    background: var(--light-blue);
+                    color: var(--marine-blue);
+                    border-color: var(--light-blue);
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+
+    .sidebar-end {
+        // padding: 20px;
+        display: flex;
+        flex-direction: column;
+        background: var(--mangolia);
+        height: calc(100% - 210px);
+
+        .user-action {
+            position: relative;
+            top: -90px;
+            background: var(--white);
+            padding: 28px;
+            margin: 0 20px;
+            border-top-left-radius: 13px;
+            border-top-right-radius: 13px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 30px -5px,
+                rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+            text-align: center;
+
+            img {
+                display: inline-block;
+                margin-top: 55px;
+                margin-bottom: 10px;
+                width: 65px;
+                height: 65px;
+            }
+
+            .title {
+                font-size: 28px;
+                padding: 15px 0;
+                color: var(--marine-blue);
+            }
+
+            .message {
+                margin-bottom: 80px;
+
+                p {
+                    font-size: 20px;
+                    font-weight: 400;
+                    word-spacing: 3px;
+                    line-height: 1.5;
+                    color: var(--cool-gray);
+                }
+
+                p:last-child {
+                    padding: 0 20px;
+
+                    a {
+                        text-decoration: none;
+                        color: var(--cool-gray);
+
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Media Queries 
+@media (min-width: 768px) {
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgb(238, 245, 255);
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        padding: 18px;
+        border-radius: 15px;
+        width: 1021px;
+        height: 700px;
+        background: #fff;
+        box-shadow: rgb(149 157 165 / 20%) -1px 4px 30px 5px;
+        transform: scale(.8);
+
+        .sidebar-start {
+            padding: 30px 40px;
+            border-radius: 10px;
+            width: 325px;
+            background: url('../../assets/images/bg-sidebar-desktop.svg');
+            background-size: cover;
+
+
+            .steps {
+                padding: 0;
+                display: flex;
+                flex-direction: column;
+                margin-top: 50px;
+
+                .step {
+                    display: flex;
+                    align-items: center;
+
+                    .step-info {
+                        display: block;
+                        text-transform: uppercase;
+
+                        .count {
+                            font-size: 14px;
+                            font-weight: 100;
+                            color: var(--light-gray);
+                            opacity: .7;
+                        }
+
+                        .label {
+                            font-size: 16px;
+                            font-weight: 500;
+                            color: var(--white);
+                        }
+                    }
+                }
+
+                .step:first-child~.step {
+                    margin-top: 40px;
+                }
+            }
+        }
+
+        .sidebar-end {
+            justify-content: center;
+            background: #fff;
+            width: 678px;
+            height: 100%;
+            padding: 0 80px;
+
+            .user-action {
+                top: 0;
+                margin: 0;
+                min-width: 500px;
+                border-radius: 0;
+                box-shadow: none;
+
+                h1.title {
+                    font-size: 35px;
+                }
+
+                .message {
+                    margin-bottom: 80px;
+
+                    p:last-child {
+                        padding: 0 35px;
+                    }
+                }
+            }
+        }
+    }
+}

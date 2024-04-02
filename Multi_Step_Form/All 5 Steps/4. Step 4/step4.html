@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Frontend Mentor | Multi-step form</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="sidebar-start">
+      <div class="steps">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+      </div>
+    </div>
+
+    <div class="sidebar-end">
+      <div class="user-action">
+        <h1 class="title">Finishing up</h1>
+        <span class="msg-text">Double-check everything looks OK before confirming.</span>
+
+        <div class="billing-cnt">
+          <div class="selected-plan-cnt">
+            <div class="cnt">
+              <span class="name">Arcade (Monthly)</span><br>
+              <a href="#" class="change-btn">Change</a>
+            </div>
+            <span class="price">$9/mo</span>
+          </div>
+          <div class="breakdown-cnt">
+            <div class="breakdown">
+              <span class="name">Online service</span>
+              <span class="extra">+$1/mo</span>
+            </div>
+            <div class="breakdown">
+              <span class="name">Larger storage</span>
+              <span class="extra">+$2/mo</span>
+            </div>
+          </div>
+        </div>
+        <div class="aggregate-cnt">
+          <span class="total">Total (per month)</span>
+          <span class="final-price">+$12/mo</span>
+        </div>
+
+      </div>
+      <div class="btn-cnt">
+        <button type="button" id="back" class="btn-control back">Go Back</button>
+        <button type="button" id="next" class="btn-control confirm">Confirm</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  <script type="text/javascript" src="./js/script.js"></script>
+</body>
+
+</html>

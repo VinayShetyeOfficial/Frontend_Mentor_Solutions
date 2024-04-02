@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Frontend Mentor | Multi-step form</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="sidebar-start">
+      <div class="steps">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+      </div>
+    </div>
+
+    <div class="sidebar-end">
+      <div class="user-action">
+        <h1 class="title">Select your plan</h1>
+        <span class="msg-text">You have the option of monthly or yearly billing.</span>
+
+        <div class="plans-cnt">
+          <div class="plan">
+            <img src="./assets/images/icon-arcade.svg" alt="">
+            <div class="details">
+              <span class="name">Arcade</span><br>
+              <span class="price">$9/mo</span><br>
+              <span class="bonus">2 months free</span>
+            </div>
+          </div>
+          <div class="plan">
+            <img src="./assets/images/icon-advanced.svg" alt="">
+            <div class="details">
+              <span class="name">Advanced</span><br>
+              <span class="price">$12/mo</span><br>
+              <span class="bonus">2 months free</span>
+            </div>
+          </div>
+          <div class="plan">
+            <img src="./assets/images/icon-pro.svg" alt="">
+            <div class="details">
+              <span class="name">Pro</span><br>
+              <span class="price">$15/mo</span><br>
+              <span class="bonus">2 months free</span>
+            </div>
+          </div>
+          <div class="switch-cnt">
+            <input type="checkbox" id="check" onclick="validate()" style="display: none;">
+            <span class="opt1">Monthly</span>
+            <label for="check">
+              <span class="switch-btn"></span>
+            </label>
+            <span class="opt2">Yearly</span>
+          </div>
+        </div>
+
+      </div>
+      <div class="btn-cnt">
+        <button type="button" id="back" class="btn-control back">Go Back</button>
+        <button type="button" id="next" class="btn-control next">Next Step</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  <script type="text/javascript" src="./js/script.js"></script>
+</body>
+
+</html>

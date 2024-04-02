@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Frontend Mentor | Multi-step form</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="sidebar-start">
+      <div class="steps">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+      </div>
+    </div>
+
+    <div class="sidebar-end">
+      <div class="user-action">
+        <h1 class="title">Personal info</h1>
+        <span class="msg-text">Please provide your name, email address, and phone number.</span>
+        <form action="">
+          <div class="form-grp">
+            <label for="name">Name</label>
+            <input type="text" id="name" class="form-control" placeholder="e.g. Stephen King">
+          </div>
+          <div class="form-grp">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" class="form-control" placeholder="e.g. stephenking@lorem.com">
+          </div>
+          <div class="form-grp">
+            <label for="phone">Phone Number</label>
+            <input type="number" id="phone" class="form-control" placeholder="e.g. +1 234 567 890">
+          </div>
+        </form>
+      </div>
+      <div class="btn-cnt">
+        <button type="button" id="next" class="btn-control">Next Step</button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+
+</html>

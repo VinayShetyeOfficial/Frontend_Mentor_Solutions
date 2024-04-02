@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="../assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="../css/step2/style.css">
+  <title>Frontend Mentor | Multi-step form</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="sidebar-start">
+      <div class="steps">
+        <div class="step">
+          <span>1</span>
+          <div class="step-info">
+            <span class="count">Step 1</span><br>
+            <span class="label">Your Info</span>
+          </div>
+        </div>
+        <div class="step">
+          <span>2</span>
+          <div class="step-info">
+            <span class="count">Step 2</span><br>
+            <span class="label">Select Plan</span>
+          </div>
+        </div>
+        <div class="step">
+          <span>3</span>
+          <div class="step-info">
+            <span class="count">Step 3</span><br>
+            <span class="label">Add-Ons</span>
+          </div>
+        </div>
+        <div class="step">
+          <span>4</span>
+          <div class="step-info">
+            <span class="count">Step 4</span><br>
+            <span class="label">Summary</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sidebar-end">
+      <div class="user-action">
+        <h1 class="title">Select your plan</h1>
+        <span class="msg-text">You have the option of monthly or yearly billing.</span>
+
+        <div class="plans-cnt">
+          <label for="radio1">
+            <div class="plan">
+              <input type="radio" id="radio1" name="input-radio" class="input-radio" onclick="selectPlan()"
+                style="display: none;">
+              <img src="../assets/images/icon-arcade.svg" alt="">
+              <div class="details">
+                <span class="name">Arcade</span><br>
+                <span class="price">$9/mo</span><br>
+                <span class="bonus">2 months free</span>
+              </div>
+            </div>
+          </label>
+          <label for="radio2">
+            <div class="plan">
+              <input type="radio" id="radio2" name="input-radio" class="input-radio" onclick="selectPlan()"
+                style="display: none;">
+              <img src="../assets/images/icon-advanced.svg" alt="">
+              <div class="details">
+                <span class="name">Advanced</span><br>
+                <span class="price">$12/mo</span><br>
+                <span class="bonus">2 months free</span>
+              </div>
+            </div>
+          </label>
+          <label for="radio3">
+            <div class="plan">
+              <input type="radio" id="radio3" name="input-radio" class="input-radio" onclick="selectPlan()"
+                style="display: none;">
+              <img src="../assets/images/icon-pro.svg" alt="">
+              <div class="details">
+                <span class="name">Pro</span><br>
+                <span class="price">$15/mo</span><br>
+                <span class="bonus">2 months free</span>
+              </div>
+            </div>
+          </label>
+          <div class="switch-cnt">
+            <input type="checkbox" id="check" onclick="switchPlanType()" style="display: none;">
+            <span class="opt1">Monthly</span>
+            <label for="check">
+              <span class="switch-btn"></span>
+            </label>
+            <span class="opt2">Yearly</span>
+          </div>
+        </div>
+
+      </div>
+      <div class="btn-cnt">
+        <button type="button" id="back" class="btn-control back" onclick="window.location.href='/'">Go Back</button>
+        <button type="button" id="next" class="btn-control next" onclick="validatePlanSelected()">Next
+          Step</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+
+  <script type="text/javascript" src="../js/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Frontend Mentor | News homepage</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg py-3">
+      <div class="container-fluid px-3">
+        <a href="#" class="navbar-brand">
+          <img src="./assets/images/logo.svg" alt="brand_logo">
+        </a>
+        <button type="button" class="navbar-toggler p-0" data-bs-toggle="offcanvas" data-bs-target="#offcanvas_menu">
+          <span class="navbar-icon d-flex align-items-center">
+            <img src=" ./assets/images/icon-menu.svg" alt="menu_icon" class="w-100">
+          </span>
+        </button>
+        <ul class="nav d-none d-lg-flex">
+          <li class="nav-item">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">New</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Popular</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Trending</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Categories</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="offcanvas offcanvas-end" id="offcanvas_menu">
+      <div class="offcanvas-header">
+        <button type="button" class="btn-close ms-auto" data-bs-dismiss="offcanvas"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2">New</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2">Popular</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2">Trending</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2">Categories</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="row">
+        <div class="col-md-8 main-left">
+          <picture>
+            <source srcset="./assets/images/image-web-3-desktop.jpg" alt="post_banner" media="(min-width: 992px)">
+            <img src="./assets/images/image-web-3-mobile.jpg" alt="post_banner" class="img-fluid">
+          </picture>
+          <div class="row flex-column flex-lg-row">
+            <div class="col mt-lg-5 mt-3">
+              <h1 class="title pt-3 pb-2 mb-0">The Bright Future of Web 3.0?</h1>
+            </div>
+            <div class="col mt-lg-5 mt-3">
+              <p class="para mb-lg-5 mb-4">We dive into the next evolution of the web that claims to put the power of
+                the
+                platforms
+                back into the
+                hands of the people.
+                But is it really fulfilling its promise?</p>
+              <button type="button" class="btn text-uppercase">Read more</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 main-right d-flex">
+          <div class="news-section mt-5 p-4 mt-md-0">
+            <h1 class="title">New</h1>
+            <div class="news mt-4 pb-3 border-bottom">
+              <h4 class="title">Hydrogen VS Electric Cars</h4>
+              <p class="info">Will hydrogen-fueled cars ever catch up to EVs?</p>
+            </div>
+            <div class="news mt-4 pb-3 border-bottom">
+              <h4 class="title">The Downsides of AI Artistry</h4>
+              <p class="info">What are the possible adverse effects of on-demand AI image generation?</p>
+            </div>
+            <div class="news mt-4 pb-3">
+              <h4 class="title">Is VC Funding Drying Up?</h4>
+              <p class="info mb-0">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+            </div>
+          </div>
+        </div>
+        <div class="bottom-section pt-5">
+          <div class="row flex-column flex-md-row">
+            <div class="col d-flex mb-4">
+              <div class="left">
+                <img src="./assets/images/image-retro-pcs.jpg" class="img-fluid" alt="computer">
+              </div>
+              <div class="right">
+                <span class="number">01</span>
+                <h6 class="title">Reviving Retro PCs</h6>
+                <p class="text">What happens when old PCs are given modern upgrades?</p>
+              </div>
+            </div>
+            <div class="col d-flex mb-4">
+              <div class="left">
+                <img src="./assets/images/image-top-laptops.jpg" class="img-fluid" alt="laptops">
+              </div>
+              <div class="right">
+                <span class="number">02</span>
+                <h6 class="title">Top 10 Laptops of 2022</h6>
+                <p class="text">Our best picks for various needs and budgets.</p>
+              </div>
+            </div>
+            <div class="col d-flex">
+              <div class="left">
+                <img src="./assets/images/image-gaming-growth.jpg" class="img-fluid" alt="gamming">
+              </div>
+              <div class="right">
+                <span class="number">03</span>
+                <h6 class="title">The Growth of Gaming</h6>
+                <p class="text">How the pandemic has sparked fresh opportunities.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  
+</body>
+
+</html>

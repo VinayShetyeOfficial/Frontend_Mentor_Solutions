@@ -1,0 +1,112 @@
+/* Defining fonts */
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Roboto&family=Source+Sans+Pro0&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@100;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700;800&display=swap');
+
+/* Defining variables */
+:root {
+  --container-bg: #d5e1ef;
+  --card-bg: #fff;
+  --font-roboto: 'Roboto', sans-serif;
+  --font-ssans: 'Source Sans Pro', sans-serif;
+  --font-jost: 'Jost', sans-serif;
+  --font-palanqiun: 'Palanquin', sans-serif;
+  --font-hyeon: 'Do Hyeon', sans-serif;
+  --font-osans: 'Open Sans', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  background-color: rgba(240, 240, 240);
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: calc(100% - 180px);
+  height: calc(100% - 180px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--container-bg);
+  margin: auto;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.container img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+.qr-code-card {
+  min-width: 300px;
+  width: 320px;
+  padding: 13px;
+  background-color: var(--card-bg);
+  border-radius: 13px;
+  transform: scale(.8);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.qr-code-card .qr-code {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.qr-code-card .text {
+  font-family: var(--font-palanqiun), var(--font-ssans), var(--font-roboto);
+  padding: 13px 10px;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+}
+
+.qr-code-card .text .big {
+  font-family: var(--font-osans);
+  font-size: 20px;
+  font-weight: 800;
+  color: #222222;
+  line-height: 1.3;
+  padding: 8px 0;
+}
+
+.qr-code-card .text .small {
+  font-size: 16px;
+  font-family: var(--font-jost);
+  color: #7a7a7a;
+  font-weight: 400;
+  line-height: 1.2;
+  padding: 8px 0;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: calc(100% - 100px);
+  }
+
+  .qr-code-card {
+    transform: scale(.65) !important;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .container {
+    width: calc(100% - 50px);
+  }
+
+  .qr-code-card {
+    transform: scale(.65) !important;
+  }
+}

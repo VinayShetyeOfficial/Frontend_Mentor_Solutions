@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Url Shortening API Challenge by Fronend Mentor">
+  <meta name="author" content="Vinay Shetye">
+  <meta name="keywords" content="url, shortening, api, challenge, frontend, mentor, vinay, shetye">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <!-- Bootstrap CSS  -->
+  <link rel="stylesheet" href="css/bootstrap.css/bootstrap.min.css">
+  <!-- Custom CSS  -->
+  <link rel="stylesheet" href="css/style.css">
+  <title>Frontend Mentor | Shortly URL shortening API Challenge</title>
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-md mt-0 mt-lg-4 p-0">
+      <div class="container">
+        <a href="#" class="navbar-brand m-0">
+          <img src="./assets/images/logo.svg" alt="brand_logo">
+        </a>
+        <button type="button" class="navbar-toggler p-0" data-bs-toggle="modal" data-bs-target="#menuModal">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav w-100">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Features</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Pricing</a>
+            </li>
+            <li class="nav-item me-auto">
+              <a href="#" class="nav-link">Resources</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Login</a>
+            </li>
+            <li class="nav-item d-flex">
+              <button class="btn nav_btn1 rounded-pill">Sign Up</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="modal fade" id="menuModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <ul class="nav flex-column">
+          <li class="nav-item text-center my-2">
+            <a href="" class="nav-link">Features</a>
+          </li>
+          <li class="nav-item text-center my-2">
+            <a href="" class="nav-link">Pricing</a>
+          </li>
+          <li class="nav-item text-center my-2">
+            <a href="" class="nav-link">Resources</a>
+          </li>
+          </li>
+          <li class="nav-item">
+            <hr class="divider my-3">
+          </li>
+          <li class="nav-item text-center my-2">
+            <a href="" class="nav-link">Login</a>
+          </li>
+          <li class="nav-item d-flex justify-content-center my-2">
+            <button class="btn modal_btn1 rounded-pill w-100">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- # SECTION 1 -->
+    <div class="section_1">
+      <div class="container">
+        <div class="row flex-column flex-md-row-reverse align-items-center gap-4">
+          <div class="col">
+            <img src="./assets/images/illustration-working.svg" class="sec1_img1" alt="user_operating_computer*.svg"
+              aria-hidden="true">
+          </div>
+          <div class="col text-center text-md-start text-md-left col-md-6 col-lg-7">
+            <h1>More than just shorter links</h1>
+            <p>Build your brand’s recognition and get detailed insights on how your links are performing.</p>
+            <button type="button" class="btn btn-lg sec1_btn1 mx-auto mx-md-0">Get Started</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- # SHORTEN LINK BLOCK  -->
+    <div class="shorten_link_input">
+      <div class="container d-flex flex-column mx-auto">
+        <form class="input-form d-flex flex-column flex-md-row mx-lg-auto gap-4 gap-md-3 gap-lg-4 w-100">
+          <div class="input_field flex-grow-1">
+            <input class="form-input" name="url" id="url" type="text" placeholder="Shorten a link here...">
+            <label class="undefined sr-only visually-hidden" for="url">Input your link</label>
+            <span class="errorMessage undefined position-absolute" role="alert">
+            </span>
+          </div>
+          <button type="submit" onclick="shortenURL()" class="btn btn-lg shorten_link_btn1 mx-auto mx-md-0">Shorten
+            It!</button>
+        </form>
+        <div class="shotened_urls d-flex flex-column mt-3 gap-3">
+        <!-- 
+          <div class="d-flex flex-column flex-md-row">
+            <div class="long_url p-3 d-inline-flex align-items-center flex-grow-1">
+              <span class="url ps-md-3 w-100">https://www.frontendmentor.io</span>
+            </div>
+            <div
+              class="short_url d-flex flex-column flex-md-row justify-content-md-end align-items-start align-items-md-center px-md-4 p-3 py-md-3">
+              <span class="url">https://rel.ink/k4lKyk</span>
+              <button type="button" class="btn copy_btn">Copy</button>
+            </div>
+          </div>
+          <div class="d-flex flex-column flex-md-row">
+            <div class="long_url p-3 d-inline-flex align-items-center flex-grow-1">
+              <span class="url ps-md-3 w-100">https://twitter.com/frontendmentor</span>
+            </div>
+            <div
+              class="short_url d-flex flex-column flex-md-row justify-content-md-end align-items-start align-items-md-center px-md-4 p-3 py-md-3">
+              <span class="url">https://rel.ink/gxOxp9</span>
+              <button type="button" class="btn copy_btn">Copied!</button>
+            </div>
+          </div>
+          <div class="d-flex flex-column flex-md-row">
+            <div class="long_url p-3 d-inline-flex align-items-center flex-grow-1">
+              <span class="url ps-md-3 w-100">https://www.linkedin.com/company/frontend-mentor</span>
+            </div>
+            <div
+              class="short_url d-flex flex-column flex-md-row justify-content-md-end align-items-start align-items-md-center px-md-4 p-3 py-md-3">
+              <span class="url">https://rel.ink/gob3X9</span>
+              <button type="button" class="btn copy_btn">Copy</button>
+            </div>
+          </div> 
+        -->
+        </div>
+      </div>
+    </div>
+
+    <!-- # SECTION 2 -->
+    <div class="section_2">
+      <div class="container text-center">
+        <h2>Advanced Statistics</h2>
+        <p class="mx-auto">Track how your links are performing across the web with our advanced statistics dashboard.
+        </p>
+        <div
+          class="cards d-flex justify-content-center align-items-center align-items-lg-start flex-column flex-md-row align-items-md-center">
+          <div class="card border-0">
+            <div class="icon_wrapper d-grid rounded-circle position-absolute">
+              <img src="./assets/images/icon-brand-recognition.svg" aria-hidden="true">
+            </div>
+            <h3>Brand Recognition</h3>
+            <p>Boost your brand recognition with each click. Generic links don’t mean a thing. Branded links help instil
+              confidence in your content.</p>
+          </div>
+          <div class="card border-0">
+            <div class="icon_wrapper d-grid rounded-circle position-absolute">
+              <img src="./assets/images/icon-detailed-records.svg" aria-hidden="true">
+            </div>
+            <h3>Brand Recognition</h3>
+            <p>Boost your brand recognition with each click. Generic links don’t mean a thing. Branded links help instil
+              confidence in your content.</p>
+          </div>
+          <div class="card border-0">
+            <div class="icon_wrapper d-grid rounded-circle position-absolute">
+              <img src="./assets/images/icon-fully-customizable.svg" aria-hidden="true">
+            </div>
+            <h3>Brand Recognition</h3>
+            <p>Boost your brand recognition with each click. Generic links don’t mean a thing. Branded links help instil
+              confidence in your content.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="get_started">
+      <div class="container text-center d-flex flex-column align-items-center">
+        <h2>Boost your links today</h2>
+        <button type="button" class="btn btn-lg get_started_btn1">Get Started</button>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="footer_section">
+      <div class="container">
+        <div
+          class="footer_content text-center d-flex flex-column flex-md-row align-items-center align-items-md-start justify-content-between">
+          <a href="#" class="brand">
+            <img src="./assets/images/logo.svg" alt="footer_brand_logo">
+          </a>
+          <dl class="footer_list d-flex flex-column flex-md-row">
+            <div>
+              <dt class="list_title">Features</dt>
+              <dd class="list_desc">
+                <a href="#" class="list_link d-block">Link Shortening</a>
+              </dd>
+              <dd class="list_desc">
+                <a href="#" class="list_link d-block">Branded Links</a>
+              </dd>
+              <dd class="list_desc">
+                <a href="#" class="list_link d-block">Analytics</a>
+              </dd>
+            </div>
+
+            <div>
+              <dt class="list_title">Resources</dt>
+              <dd class="list_desc">
+                <a href="#" class="list_link d-block">Blog</a>
+              </dd>
+              <dd class="list_desc">
+                <a href="#" class="list_link d-block">Developers</a>
+              </dd>
+              <dd class="list_desc">
+                <a href="#" class="list_link d-block">Support</a>
+              </dd>
+            </div>
+
+            <div>
+              <dt class="list_title">Company</dt>
+              <dd class="list_desc">
+                <a href="#" class="list_link d-block">About</a>
+              </dd>
+              <dd class="list_desc">
+                <a href="#" class="list_link d-block">Our Team</a>
+              </dd>
+              <dd class="list_desc">
+                <a href="#" class="list_link d-block">Careers</a>
+              </dd>
+              <dd class="list_desc">
+                <a href="#" class="list_link d-block">Contact</a>
+              </dd>
+            </div>
+          </dl>
+
+          <div>
+            <ul class="footer_social_links d-flex justify-content-center align-items-center flex-wrap">
+              <li class="footer_link_item">
+                <a href="#" class="footer_link" aria-label="Facebook">
+                  <img src="./assets/images/icon-facebook.svg" alt="" aria-hidden="true"></a>
+              </li>
+              <li class="footer_link_item">
+                <a href="#" class="footer_link" aria-label="Twitter">
+                  <img src="./assets/images/icon-twitter.svg" alt="" aria-hidden="true"></a>
+              </li>
+              <li class="footer_link_item">
+                <a href="#" class="footer_link" aria-label="Pinterest">
+                  <img src="./assets/images/icon-pinterest.svg" alt="" aria-hidden="true"></a>
+              </li>
+              <li class="footer_link_item">
+                <a href="#" class="footer_link" aria-label="Instagram">
+                  <img src="./assets/images/icon-instagram.svg" alt="" aria-hidden="true"></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- 
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </div> 
+  -->
+
+  <script type="text/javascript" src="js/bootstrap.js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js/popper.min.js"></script>
+
+  <!-- Custom javascript  -->
+  <script type="text/javascript" src="js/script.js"></script>
+
+</body>
+
+</html>
