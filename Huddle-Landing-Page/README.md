@@ -30,5 +30,6 @@ Welcome to the Huddle landing page challenge!
 
 - Submit your solution on the platform for community feedback.
 - Share your solution on social media and blogging platforms.
-- Feedback and suggestions are welcome at hi[at]frontendmentor[dot]io.
+- Feedback and suggestions are welcome [@FrontendMentor.io](frontendmentor.io).
+
 
