@@ -3,11 +3,11 @@
 ![Design preview for the News homepage coding challenge](./design/desktop-preview.jpg)
 
 Welcome to the News homepage page challenge! <br>
-Your task is to recreate the provided design for a landing page.
+Your task is to recreate the provided design for the page.
 
 ## Challenge Details
 
-- Build a landing page based on the provided designs.
+- Build a page based on the provided designs.
 - Ensure the page is responsive for different screen sizes.
 - Implement hover states for interactive elements.
 
