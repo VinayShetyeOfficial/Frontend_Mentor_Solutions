@@ -3,7 +3,7 @@
 
 ![Design preview for the Huddle landing page with single introductory section](./design/desktop-preview.jpg)
 
-Welcome to the Huddle landing page challenge! 
+Welcome to the Huddle landing page design challenge! 
 <br>Your task is to recreate the provided design for a landing page.
 
 ## Challenge Details
