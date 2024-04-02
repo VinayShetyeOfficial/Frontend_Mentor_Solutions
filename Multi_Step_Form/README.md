@@ -2,7 +2,7 @@
 
 ![Design preview for the Multi-step form coding challenge](./design/desktop-preview.jpg)
 
-Welcome to the Results summary component design page challenge! <br>
+Welcome to the Results summary component page challenge! <br>
 Your task is to recreate the provided design for a landing page.
 
 ## Challenge Details
