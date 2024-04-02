@@ -1,13 +1,13 @@
-# Results summary component (<a href="https://63f763121a6e4701d542f3da--beautiful-liger-85da37.netlify.app/" target="_blank"><ins>Live Site</ins></a>)
+# Multi Step Form (<a href="https://63f763121a6e4701d542f3da--beautiful-liger-85da37.netlify.app/" target="_blank"><ins>Live Site</ins></a>)
 
 ![Design preview for the Multi-step form coding challenge](./design/desktop-preview.jpg)
 
-Welcome to the Results summary component page challenge! <br>
-Your task is to recreate the provided design for a landing page.
+Welcome to the Multi_Step_Form challenge! <br>
+Your task is to recreate the provided design forthe form.
 
 ## Challenge Details
 
-- Build a landing page based on the provided designs.
+- Build a form page based on the provided designs.
 - Ensure the page is responsive for different screen sizes.
 - Implement hover states for interactive elements.
 
