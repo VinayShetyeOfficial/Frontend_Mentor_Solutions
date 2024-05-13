@@ -45,4 +45,5 @@ While working on this project, I gained valuable experience in creating responsi
 
 Moving forward, I aim to further enhance my skills in data visualization and explore more advanced JavaScript techniques for creating interactive and dynamic user interfaces. Additionally, I plan to delve deeper into accessibility practices to ensure inclusive experiences for all users.
 
-Feel free to customize this README template to suit your project's specific needs. <br> Happy coding!
+Feel free to customize this README template to suit your project's specific needs. <br> Happy coding! 😊
+
