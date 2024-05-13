@@ -1,34 +1,55 @@
-# News homepage (<a href="https://63f8b820d611600050fe000d--polite-donut-565469.netlify.app/" target="_blank"><ins>Live Site</ins></a>)
+# News Homepage
 
-![Design preview for the News homepage coding challenge](./design/desktop-preview.jpg)
+This project is a solution to the Frontend Mentor Challenge - “News Homepage”. It’s a responsive landing page built with HTML, CSS, and JavaScript.
 
-Welcome to the News homepage page challenge! <br>
-Your task is to recreate the provided design for the page.
+## Table of Contents
 
-## Challenge Details
+- [Overview](#overview)
+- [The Challenge](#the-challenge)
+- [Screenshot](#screenshot)
+- [Links](#links)
+- [My Process](#my-process)
+- [Built With](#built-with)
+- [What I Learned](#what-i-learned)
+- [Continued Development](#continued-development)
 
-- Build a page based on the provided designs.
-- Ensure the page is responsive for different screen sizes.
-- Implement hover states for interactive elements.
+## Overview
 
-## Resources
+### The Challenge
 
-- Design files are available in the `/design` folder.
-- Required assets are in the `/images` folder.
-- Refer to `style-guide.md` for color palette and fonts.
+The challenge involved creating a visually appealing and responsive news homepage that adapts seamlessly across different screen sizes. The main objectives were:
 
-## Project Setup
+- Implement a design that accurately replicates the provided design mockups.
+- Ensure the layout is optimized for various device screen sizes and orientations.
+- Incorporate hover effects and interactive elements where applicable.
 
-1. Start a public repository on [GitHub](https://github.com/).
-2. Configure your repository to publish to a web address.
-3. Plan your approach by examining the designs.
-4. Structure your content with HTML before adding styles.
-5. Deploy your project using platforms like GitHub Pages or Netlify.
+### Screenshot
 
-## Submitting Solutions
+![News-Homepage](https://github.com/VinayShetyeOfficial/Frontend_Mentor_Solutions/assets/100470361/beaa7276-4f71-4ade-b570-805838605ee0)
 
-- Submit your solution on the platform for community feedback.
-- Share your solution on social media and blogging platforms.
-- Feedback and suggestions are welcome [@FrontendMentor.io](frontendmentor.io).
 
+### Links
+Live Site URL: [Live Preview](https://63f8b820d611600050fe000d--polite-donut-565469.netlify.app/)
+
+## My Process
+
+### Built With
+
+- Semantic HTML5 markup
+- CSS Flexbox and Grid layouts
+- Mobile-first responsive design approach
+- [Optional] JavaScript for interactive features
+
+## What I Learned
+
+Throughout this project, I gained valuable experience in creating responsive layouts, optimizing images for the web, and implementing modern CSS techniques. Specific areas of learning included:
+
+- Utilizing CSS Flexbox and Grid for flexible and efficient layout construction.
+- Applying mobile-first design principles to ensure a seamless experience across devices.
+- Leveraging CSS media queries for responsive styling.
+- [Optional] Enhancing interactivity with JavaScript event handling.
+
+## Continued Development
+
+Looking ahead, I aim to further strengthen my skills in responsive web design and explore advanced CSS techniques for creating visually captivating user interfaces. Additionally, I plan to delve deeper into accessibility practices to ensure inclusive experiences for all users. <br> Happy coding! 😊
 
