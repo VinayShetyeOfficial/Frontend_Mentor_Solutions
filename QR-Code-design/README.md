@@ -1,35 +1,49 @@
-# QR code component (<a href="https://63f2e995eeaea56f8f8d2338--resilient-cranachan-83f913.netlify.app/" target="_blank"><ins>Live Site</ins></a>)
+# QR Code Component
 
-![Design preview for the QR code component coding challenge](./design/desktop-preview.jpg)
+This is a solution to the QR Code Component challenge on Frontend Mentor. It involves building a responsive web component that displays a QR code image along with some accompanying text.
 
-Welcome to the QR code component page challenge! <br>
-Your task is to recreate the provided design for the page.
+## Table of Contents
 
-## Challenge Details
+- [Overview](#overview)
+- [Screenshot](#screenshot)
+- [Links](#links)
+- [My Process](#my-process)
+- [Built With](#built-with)
+- [What I Learned](#what-i-learned)
+- [Continued Development](#continued-development)
 
-- Build a page based on the provided designs.
-- Ensure the page is responsive for different screen sizes.
-- Implement hover states for interactive elements.
+## Overview
 
-## Resources
+The objective of this challenge is to create a visually appealing QR code component that closely matches the provided design. The component is responsive and adapts seamlessly across different screen sizes and devices.
 
-- Design files are available in the `/design` folder.
-- Required assets are in the `/images` folder.
-- Refer to `style-guide.md` for color palette and fonts.
+### Screenshot
 
-## Project Setup
-
-1. Start a public repository on [GitHub](https://github.com/).
-2. Configure your repository to publish to a web address.
-3. Plan your approach by examining the designs.
-4. Structure your content with HTML before adding styles.
-5. Deploy your project using platforms like GitHub Pages or Netlify.
-
-## Submitting Solutions
-
-- Submit your solution on the platform for community feedback.
-- Share your solution on social media and blogging platforms.
-- Feedback and suggestions are welcome [@FrontendMentor.io](frontendmentor.io).
+![QR-Code-design](https://github.com/VinayShetyeOfficial/Frontend_Mentor_Solutions/assets/100470361/16586fd6-417a-4a63-a2e0-533d4f7e097e)
 
 
+### Links
 
+- Live Site URL: [Live Preview](https://63f2e995eeaea56f8f8d2338--resilient-cranachan-83f913.netlify.app/)
+
+## My Process
+
+### Built With
+
+- Semantic HTML5 markup
+- CSS Flexbox and Grid layouts
+- Mobile-first responsive design approach
+
+## What I Learned
+
+While working on this project, I solidified my understanding of essential web development concepts, including:
+
+- Building responsive layouts using CSS Flexbox and Grid.
+- Implementing a mobile-first design approach.
+- Optimizing images for web performance.
+- Adhering to best practices for accessible and semantic HTML markup.
+
+## Continued Development
+
+Moving forward, I aim to further enhance my skills in responsive design and explore more advanced CSS techniques, such as CSS variables and animations. Additionally, I plan to delve deeper into accessibility practices to ensure inclusive experiences for all users.
+
+Feel free to customize this README template to suit your project's specific needs. <br> Happy coding! 😊
