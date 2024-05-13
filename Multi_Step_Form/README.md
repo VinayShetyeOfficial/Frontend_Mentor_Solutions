@@ -32,7 +32,7 @@ Live Site URL: [Preview](https://63f763121a6e4701d542f3da--beautiful-liger-85da3
 - HTML5
 - CSS3
 - JavaScript
-- 
+
 ### Installation and Usage
 Clone the repository and open `index.html` in your preferred browser to view the project.
 ```bash
