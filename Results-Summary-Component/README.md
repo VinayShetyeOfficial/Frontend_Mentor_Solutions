@@ -1,34 +1,48 @@
-# Results summary component (<a href="https://660c79aebab5d1348aff3536--resplendent-trifle-cf4f35.netlify.app/" target="_blank"><ins>Live Site</ins></a>)
+# Results Summary Component
 
-![Design preview for the Results summary component coding challenge](./design/desktop-preview.jpg)
+This is a solution to the Results Summary Component challenge on Frontend Mentor. It involves building a responsive web component that displays a user's test results, including an overall score and individual category scores.
 
-Welcome to the Results summary component page challenge! <br>
-Your task is to recreate the provided design for the page.
+## Table of Contents
 
-## Challenge Details
+- [Overview](#overview)
+- [Screenshot](#screenshot)
+- [Links](#links)
+- [My Process](#my-process)
+- [Built With](#built-with)
+- [What I Learned](#what-i-learned)
+- [Continued Development](#continued-development)
 
-- Build a page based on the provided designs.
-- Ensure the page is responsive for different screen sizes.
-- Implement hover states for interactive elements.
+## Overview
 
-## Resources
+The objective of this challenge is to create a visually appealing results summary component that accurately represents the provided design. The component should be responsive, adapting seamlessly across different screen sizes and devices.
 
-- Design files are available in the `/design` folder.
-- Required assets are in the `/images` folder.
-- Refer to `style-guide.md` for color palette and fonts.
+### Screenshot
 
-## Project Setup
+![Results-Summary-Component](https://github.com/VinayShetyeOfficial/Frontend_Mentor_Solutions/assets/100470361/f671ec71-dcce-46aa-8f46-e01157d198b4)
 
-1. Start a public repository on [GitHub](https://github.com/).
-2. Configure your repository to publish to a web address.
-3. Plan your approach by examining the designs.
-4. Structure your content with HTML before adding styles.
-5. Deploy your project using platforms like GitHub Pages or Netlify.
+### Links
 
-## Submitting Solutions
+Live Site URL: [Live Preview](https://660c79aebab5d1348aff3536--resplendent-trifle-cf4f35.netlify.app/)
 
-- Submit your solution on the platform for community feedback.
-- Share your solution on social media and blogging platforms.
-- Feedback and suggestions are welcome [@FrontendMentor.io](frontendmentor.io).
+## My Process
+
+### Built With
+
+- Semantic HTML5 markup
+- CSS Flexbox and Grid layouts
+- Mobile-first responsive design approach
+
+## What I Learned
+
+While working on this project, I gained valuable experience in creating responsive layouts, working with data visualization, and adhering to design specifications. Specific areas of learning included:
+
+- Displaying dynamic data using JavaScript.
+- Ensuring accessibility by incorporating appropriate semantic markup and ARIA roles.
+- Optimizing performance by leveraging CSS best practices and modern layout techniques.
+
+## Continued Development
 
 
+Moving forward, I aim to further enhance my skills in data visualization and explore more advanced JavaScript techniques for creating interactive and dynamic user interfaces. Additionally, I plan to delve deeper into accessibility practices to ensure inclusive experiences for all users.
+
+Feel free to customize this README template to suit your project's specific needs. <br> Happy coding!
