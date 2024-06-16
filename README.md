@@ -13,7 +13,7 @@ This repository contains my solutions to various web page design challenges from
  
 > [!NOTE] 
 > Feel free to explore the individual challenge folders for detailed solutions and code examples!
-
+ 
 ## Usage
 1. Clone this repository:
   ```bash
