@@ -25,11 +25,11 @@ The challenge involved creating a visually appealing and responsive news homepag
 
 ### Screenshot
 
-![News-Homepage](https://github.com/VinayShetyeOfficial/Frontend_Mentor_Solutions/assets/100470361/beaa7276-4f71-4ade-b570-805838605ee0)
+![desktop-preview](https://github.com/VinayShetyeOfficial/Frontend_Mentor_Solutions/assets/100470361/b51cc08a-c462-4ddb-91fa-065123545c41)
 
 
 ### Links
-Live Site URL: [Live Preview](https://63f8b820d611600050fe000d--polite-donut-565469.netlify.app/)
+Live Site URL: [Live Preview](https://666f454ca47b0a52d04855e8--bespoke-lebkuchen-40a7be.netlify.app/)
 
 ## My Process
 
