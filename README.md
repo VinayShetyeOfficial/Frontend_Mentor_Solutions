@@ -15,7 +15,7 @@ This repository contains my solutions to various web page design challenges from
 > Feel free to explore the individual challenge folders for detailed solutions and code examples!
  
 ## Usage
-1. Clone this repository:
+1. Clone this repository: 
   ```bash
   git clone https://github.com/VinayShetyeOfficial/Frontend_Mentor_Solutions.git
   cd Frontend_Mentor_Solutions
