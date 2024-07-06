@@ -11,7 +11,7 @@ This repository contains my solutions to various web page design challenges from
 5. **Results Summary Component:** A summary component that displays results or statistics. It includes dynamic data and responsive styling. 
 6. **URL Shortening API Master:** A landing page for a URL shortening service. Users can input long URLs and receive shortened versions. JavaScript is used to interact with an API.
   
-> [!NOTE]   
+> [!NOTE]    
 > Feel free to explore the individual challenge folders for detailed solutions and code examples!
  
 ## Usage
