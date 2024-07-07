@@ -16,7 +16,7 @@ This repository contains my solutions to various web page design challenges from
  
 ## Usage
 1. Clone this repository: 
-  ```bash
+  ```bash 
   git clone https://github.com/VinayShetyeOfficial/Frontend_Mentor_Solutions.git
   cd Frontend_Mentor_Solutions
   ```
