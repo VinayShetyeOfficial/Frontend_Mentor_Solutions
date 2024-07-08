@@ -1,5 +1,5 @@
  # Frontend Mentor < Solutions />
-![Frontend-Mentor-Challenge](https://github.com/VinayShetyeOfficial/Frontend_Mentor_Solutions/assets/100470361/cdd704ab-26d5-4075-a61e-057c3e9d5ea7)           
+![Frontend-Mentor-Challenge](https://github.com/VinayShetyeOfficial/Frontend_Mentor_Solutions/assets/100470361/cdd704ab-26d5-4075-a61e-057c3e9d5ea7)            
      
 This repository contains my solutions to various web page design challenges from Frontend Mentor. Each challenge focuses on different aspects of front-end development, including HTML, CSS, and  Jav aScript.    
                
