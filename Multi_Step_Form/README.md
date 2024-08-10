@@ -1,46 +1,46 @@
-# Multi Step Form
+Taking reference to below GitHub Readme file content, similarly, generate for GitHub repo `Expense-Tracek-React`
 
-This project is a solution to the Frontend Mentor Challenge - “Multi-Step Form”. It’s a user-friendly information input interface designed with multiple steps. The form ensures data integrity through validations and adapts to different screen sizes.
+# React-ToDo-App
+![React-ToDo-App](https://github.com/VinayShetyeOfficial/React-Todo-App-2/assets/100470361/f74d0579-7698-4379-b6db-cffcfe4e79a8)
 
-## Table of Contents
-
-- [Description](#description)
-- [Features](#features)
-- [Screenshot](#screenshot)
-- [Links](#links)
-- [Technologies Used](#technologies-used)
-- [Installation & Usage](#installation-and-usage)
-- [License](#license)
+Live Site URL: [Preview](https://main--cool-cajeta-7680ef.netlify.app/)
 
 ## Description
-This project is a solution to the Frontend Mentor Challenge - a multi-step form interface designed for user-friendly information input experience. It’s built with responsiveness and usability in mind, ensuring compatibility across various devices and screen sizes.
+A simple and interactive To-Do List application built with React. Users can add tasks, mark them as completed, and delete them.
+ 
+## Features
+- Add new tasks to your list.
+- Mark tasks as completed.
+- Delete tasks from the list.                                
 
-### Features
-- Interactive multi-step progression
-- Validations for each step ensuring data integrity
-- Responsive design adapting to different screen sizes
+## Installation 
+1. Clone the repository: 
+   ```bash
+   git clone https://github.com/VinayShetyeOfficial/React-Todo-App-2.git
+   ```
+ 
+2. Navigate to the project directory:
+   ```bash
+    cd React-Todo-App-2 
+   ```
+   
+3. Install dependencies:
+   ```bash
+   npm install 
+   ```
 
-### Screenshot
-![Multi-Step-Form](https://github.com/VinayShetyeOfficial/Frontend_Mentor_Solutions/assets/100470361/3b89ba62-f4b5-47dc-ae2b-379cdcce70a9)
+4. Start the development server:
+   ```bash
+   npm start
+   ```
 
+### Usage
+Simply type in the task title and description in the provided input fields and click on ‘Add’ button to add a new task.
+Use the tabs below to filter between all, completed, and pending tasks.
 
-### Links
-
-Live Site URL: [Preview](https://63f763121a6e4701d542f3da--beautiful-liger-85da37.netlify.app/)
-
-## Technologies Used
-- HTML5
-- CSS3
-- JavaScript
-
-### Installation and Usage
-Clone the repository and open `index.html` in your preferred browser to view the project.
-```bash
-git clone https://github.com/VinayShetyeOfficial/Multi_Step_Form.git
-cd Multi-Step-Form
-open index.html
-```
+### Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
 This project is open-source and available for anyone to explore, learn from, and contribute to.
-Feel free to customize the content and structure according to your preferences. Happy coding! 😊
+Feel free to customize the content and structure according to your preferences. <br><br> Happy coding! 😊
